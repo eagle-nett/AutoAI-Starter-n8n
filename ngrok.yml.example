@@ -1,0 +1,10 @@
+version: "3"
+
+agent:
+    authtoken: {your-ngrok-authtoken}
+
+tunnels:
+  basic:
+    proto: http
+    addr: http://host.docker.internal:5678
+    url: {your-ngrok-url.ngrok-free.app}
